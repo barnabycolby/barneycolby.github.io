@@ -12,7 +12,9 @@ body {
 #header {
 	text-align: center;
 }
-
+#header .name {
+	margin-bottom: 0;
+}
 #header .occupation {
 	font-style: italic;
 }
