@@ -1,3 +1,8 @@
+body {
+	font-family: "skolar", serif;
+}
+
+/* Makes sure that the content is centered and visible on most screens */
 .content {
 	width: 960px;
 	margin: 0 auto;
