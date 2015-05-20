@@ -12,3 +12,7 @@ body {
 #header {
 	text-align: center;
 }
+
+#header .occupation {
+	font-style: italic;
+}
