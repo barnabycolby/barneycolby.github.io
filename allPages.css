@@ -2,3 +2,8 @@ body {
 	width: 960px;
 	margin: 0 auto;
 }
+
+/* Styling for header */
+#header {
+	text-align: center;
+}
