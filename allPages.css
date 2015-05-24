@@ -33,6 +33,7 @@ body {
 	padding-bottom: 5px;
 	margin-bottom: 0;
 	text-align: left;
+	padding-left: 0;
 }
 #header .navigation a, #header .navigation a:link, #header .naviation a:visited, #header .navigation a:active {
 	color: white;
