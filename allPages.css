@@ -2,6 +2,7 @@ body {
 	font-family: "skolar", serif;
 	width: 100%;
 	margin: 0;
+	padding: 0;
 }
 
 /* Makes sure that the content is centered and visible on most screens */
@@ -15,7 +16,8 @@ body {
 	text-align: center;
 	background-color: #474747;
 	color: white;
-	padding: 20px 0;
+	padding-top: 20px;
+	padding-bottom: 5px;
 }
 #header .name {
 	margin-bottom: 0;
@@ -23,4 +25,19 @@ body {
 }
 #header .occupation {
 	font-style: italic;
+}
+
+/* Navigation styling */
+#header .navigation {
+	list-style-type: none;	
+	padding-bottom: 5px;
+	margin-bottom: 0;
+	text-align: left;
+}
+#header .navigation a, #header .navigation a:link, #header .naviation a:visited, #header .navigation a:active {
+	color: white;
+	text-decoration: none;
+}
+#header .navigation a:hover {
+	text-decoration: underline;
 }
