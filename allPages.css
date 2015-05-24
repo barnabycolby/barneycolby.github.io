@@ -1,5 +1,7 @@
 body {
 	font-family: "skolar", serif;
+	width: 100%;
+	margin: 0;
 }
 
 /* Makes sure that the content is centered and visible on most screens */
@@ -11,9 +13,13 @@ body {
 /* Styling for header */
 #header {
 	text-align: center;
+	background-color: #474747;
+	color: white;
+	padding: 20px 0;
 }
 #header .name {
 	margin-bottom: 0;
+	margin-top: 0;
 }
 #header .occupation {
 	font-style: italic;
